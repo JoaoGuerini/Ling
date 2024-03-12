@@ -21,8 +21,7 @@ header img{
 .Inicial {
     background: url("../img/initial.png");
     background-size: cover;
-    ;
-    background-position-y: -300px ;
+    background-position-y: -700px ;
     background-repeat: no-repeat;
     padding: 20px;
     opacity: 70%;
@@ -32,14 +31,12 @@ header img{
 
 
 
-*{
-    background: linear-gradient(to bottom, rgba(43, 1, 1, 0.944),rgb(35, 2, 2));
-    background-attachment: fixed;
+
+.botoes{
     text-align: center;
-
 }
-
-button{
+.initbot{
+    text-align: center;
     background-color: red;
     font-size: 14px;
     font-weight: bold;
@@ -50,14 +47,15 @@ button{
     border-radius: 10px;
     border-color: red;
     transition: background-color 1s ease, color 0.5s ease, transform 0.5s ease;
-    
 }
 
-button:hover{
+.initbot:hover{
     background-color: white;
     color: red;
     
 }
+
+
 
 * p{
     color: white;

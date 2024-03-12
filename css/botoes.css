@@ -1,0 +1,26 @@
+.aps * img{
+    width: 150px;
+    background-color: white;
+    
+}
+
+.aps * button{
+    text-align: center;
+    background-color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white
+    ;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border-color: white;
+    transition: background-color 1s ease, color 0.5s ease, transform 0.5s ease, border-color 0.5s ease;
+
+}
+
+.aps * button:hover{
+    color: red;
+    border-color: red;
+}
+
