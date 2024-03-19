@@ -23,6 +23,7 @@ header img{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: 500%;
     padding: 20px;
     opacity: 70%;
     border-top: 20px solid white;
@@ -59,4 +60,8 @@ header img{
 
 * p{
     color: white;
+}
+
+.div-anuncio-geral img  {
+    width: 150px;
 }
