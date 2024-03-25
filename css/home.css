@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: #5f3a79;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navegador{
+    margin: 5px 0px 30px 0px;
+    border: solid 4px;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navegador > li > a{
+    margin: 20px;
+    color: white;
+    border: solid 4px black;
+
+    border-radius: 15px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: solid 6px black;
+    border-radius: 10px;
+    width: 90vw;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e234f;
+    box-shadow: 10px 10px 5px #3d264b; 
+}
+
+#corpo > main > h1{
+    color: rgb(235, 235, 102);;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#corpo > .niveis > h2{
+    color: rgb(235, 235, 102);;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.niveis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+
+}
+
+.niveis > button > a{
+    color: white;
+    text-transform: uppercase;
+    transition: color 1s ease;;
+}
+
+.niveis > button{
+    border: solid 3px white;
+    border-radius: 30px;
+    width: 250px;
+    padding: 8px    ;
+    background-color: black ;
+    transition: background-color 1s ease;
+}
+
+.niveis > button > a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.niveis > button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: solid 5px black
+    
+}

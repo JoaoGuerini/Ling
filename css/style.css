@@ -1,67 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+    margin: 0; 
+    font-family: "Noto Sans", sans-serif;
 
-header{
+}
+
+.main{
     display: flex;
-    color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-
-
-
-    
-}
-
-header img{
-    width:150px;
-
-}
-
-
-.Inicial {
-    background: url("../img/initial.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 500%;
-    padding: 20px;
-    opacity: 70%;
-    border-top: 20px solid white;
-    border-bottom: 20px solid white;
-}
-
-
-
-
-.botoes{
-    text-align: center;
-}
-.initbot{
-    text-align: center;
-    background-color: red;
-    font-size: 14px;
-    font-weight: bold;
     text-decoration: none;
-    color: white
-    ;
-    padding: 8px 15px;
-    border-radius: 10px;
-    border-color: white;
-    transition: background-color 1s ease, color 0.5s ease, transform 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d204e;
+
 }
 
-.initbot:hover{
-    border-color: black;
-    color: black;
+.corpo {
+    padding: 50px;
+    border-radius: 12px;
+    margin: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50vw;
+    height: 80vh;
+    background-color: #2b1b35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px #3d264b;
+}
+
+
+.corpo > h1{
+    color: #ffffff;
+    background-color: #682c8e;
+    border: solid 4px black ;
+    box-shadow: 10px 10px 10px -12px #48265f;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.corpo > h2{
+    color: white;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+
+.corpo > a{
+
+    color: white;
+    border: solid 5px white;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: #5a3174;
+    box-shadow: 0px 10px 40px #00000100;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 1s ease, color 0.5s ease;
+}
+
+
+.corpo > a:hover{
+    cursor: pointer;
+    color: #5a3174;
+    background-color: #ffffff;
+    border: solid 5px #5a3174 ;
     
 }
 
-
-
-* p{
-    color: white;
-}
-
-.div-anuncio-geral img  {
-    width: 150px;
+strong {
+    text-decoration: underline pink;
 }
