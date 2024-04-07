@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    background-color: #5f3a79;
+    background-color: #3d204e;
     font-family: "Noto Sans", sans-serif;
 }
 
@@ -43,22 +43,23 @@ a{
     flex-direction: column;
     margin-left: 50px;
     margin-top: 20px;
-    border: solid 6px black;
+    border: solid 6px white;
     border-radius: 10px;
     width: 90vw;
     height: 120vh;
     justify-content: center;
     align-items: center;
-    background-color: #3e234f;
+    background-color: #2b1b35;
     box-shadow: 10px 10px 5px #3d264b; 
 }
 
 #corpo > main > h1{
-    color: rgb(235, 235, 102);;
+    color: rgb(235, 235, 102);
     display: flex;
     justify-content: center;
     font-size: 30px;
     text-transform: uppercase;
+    
 }
 
 #corpo > .niveis > h2{
@@ -77,6 +78,7 @@ a{
 p{
     text-align: center;
     color: white;
+    margin: 0 2% 0 2% ;
 
 }
 

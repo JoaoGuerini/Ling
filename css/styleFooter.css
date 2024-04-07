@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+footer{
+    background-color: #72428f;
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+}
+
+footer > p{
+    margin: 2% 2% 1% 8%;
+    text-transform:uppercase;
+}
+svg{
+    height: 3vw;
+    margin: 1% 10%;
+    display:flex;
+    padding: 1px;
+}
