@@ -3,17 +3,13 @@
 footer{
     background-color: #72428f;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: "Noto Sans", sans-serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-footer > p{
-    margin: 2% 2% 1% 8%;
-    text-transform:uppercase;
-}
-svg{
-    height: 3vw;
-    margin: 1% 10%;
-    display:flex;
-    padding: 1px;
+footer{
+    align-items: center;
 }

@@ -1,0 +1,19 @@
+.navegador{
+    border-radius: 8px;
+    padding: 1%;
+    background-color: #72428f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navegador > a{
+    font-size: 14px;
+    text-decoration-line: none;
+    color: white;
+    border-radius: 15px;
+    padding: 0.1%;
+    text-transform: uppercase;
+}
+

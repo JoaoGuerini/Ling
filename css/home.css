@@ -18,42 +18,21 @@ a{
 }
 
 
-.navegador{
-    margin: 5px 0px 30px 0px;
-    border: solid 4px;
-    border-radius: 8px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.navegador > li > a{
-    margin: 20px;
-    color: white;
-    border: solid 4px black;
-
-    border-radius: 15px;
-    padding: 15px;
-    text-transform: uppercase;
-}
-
 #corpo{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 3.8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     border: solid 6px white;
     border-radius: 10px;
     width: 90vw;
-    height: 120vh;
-    justify-content: center;
-    align-items: center;
+    height: 12  0vh;
     background-color: #2b1b35;
     box-shadow: 10px 10px 5px #3d264b; 
 }
 
-#corpo > main > h1{
+#corpo main > h1{
     color: rgb(235, 235, 102);
     display: flex;
     justify-content: center;
@@ -63,6 +42,7 @@ a{
 }
 
 #corpo > .niveis > h2{
+    padding: 1%;
     color: rgb(235, 235, 102);;
     text-transform: uppercase;
     display: flex;
@@ -76,35 +56,25 @@ a{
 }
 
 p{
+    padding: 1%;
     text-align: center;
     color: white;
     margin: 0 2% 0 2% ;
 
 }
 
-.niveis > button > a{
-    color: white;
-    text-transform: uppercase;
-    transition: color 1s ease;;
-}
-
-.niveis > button{
-    border: solid 3px white;
-    border-radius: 30px;
-    width: 250px;
-    padding: 8px    ;
-    background-color: black ;
-    transition: background-color 1s ease;
-}
-
-.niveis > button > a:hover{
-    cursor: pointer;
-    color: black;
-}
-
-.niveis > button:hover{
-    cursor: pointer;
+.niveis  > a{
+    margin: 3%;
+    padding: 1%;
+    border: 4px solid yellow;
+    border-radius: 20px;
     background-color: white;
-    border: solid 5px black
-    
+    color: black;
+    text-transform: uppercase;
+    transition: transform 0.5s ease;
+}
+
+.niveis > a:hover{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
 }
